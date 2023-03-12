@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    color: #fff;
+
+    text-align: center;
+}
+
+.border {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    width: 1000px;
+    height: 700px;
+}
+
+.border-1 {
+    border: 1px solid #fff;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
+
+.h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.h {
+    color: #fff;
+}
+
+.button {
+    background-color: green;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.button-father {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    text-align: center;
+    color: cyan;
+}
+
+.h {
+    color: cyan;
+}
+
+.h2-1 {
+    text-align: center;
+    color: blue;
+}
+
+.h-1 {
+    text-align: center;
+    color: blue;
+}
+
+.button:hover {
+    color: lightgreen;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.border-3 {
+    width: px;
+}
+
+.border-400 {
+    border: 1px solid #fff;
+}
+
+.h22 {
+    animation: h2 linear 4s infinite;
+    color: #fff;
+    text-align: center;
+}
+
+@keyframes h2 {
+    0% {
+        transform: translateY(110vh);
+    }
+
+    50% {
+        transform: translateZ(50vh);
+    }
+
+
+}
+
+.button-menu {
+    position: relative;
+    top: 85px;
+}
+
+.button-menu:hover {
+    cursor: pointer;
+}
+
+.Youtube {
+    position: relative;
+    top: 80px;
+    right: 400px;
+}
